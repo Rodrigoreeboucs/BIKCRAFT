@@ -1,0 +1,283 @@
+body{
+    font-family: arial, Helvetica, sans-serif
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img {
+    display: block;
+}
+.btn{
+    border: 3px solid #fec63e ;
+    padding: 10px 30px;
+    color: #fec63e;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+
+}
+.btn:hover{
+    color: azure;
+    border-color: azure;
+}
+.btn.btn-preto:hover {
+    color: black;
+    border-color: black;
+}
+.subtitulo {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.subtitulo:after{
+    content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: rgb(0, 0, 0);
+  margin: 8px auto 
+}
+/* projeto */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fec63e;
+    z-index: 10;
+    
+}
+.header_menu {
+    text-align: right;
+}
+.header_menu ul li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 11px;
+}
+.header_menu ul li a {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 5px;
+}
+.header_menu ul li a:hover {
+    color: white;
+    
+}
+a {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.introducao {
+    width: 100%;
+    height: 380px;
+    background: url("../foto.inicio.jpg") no-repeat center;
+    background-size: cover;
+    margin-top: 92px;
+    text-align: center;
+    padding: 100px;
+}
+.introducao h1 {
+    font-size: 48px;
+    color: azure;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.quote-exter {
+    max-width: 360px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    color: azure;
+}
+.quote-exter p {
+    font-style: italic;
+    
+    color: aliceblue;
+}
+.quote-exter p:before, .quote-exter p::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: white;
+  margin: 14px auto 10px auto;
+}
+.quote-exter cite {
+    color: azure;
+}
+
+.produtos {
+    padding: 60px 0;
+    
+}
+.produtos-lista li{
+    background: #fec63e;
+    text-align: center;
+    
+
+}
+.produtos-lista li h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 20px;
+    
+
+    
+}
+.produtos-lista li p {
+    padding: 10px 20px 20px 20px;
+}
+.produtos-lista li h3:after {
+    content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: rgb(0, 0, 0);
+  margin: 2px auto ;
+}
+.produtos_icone {
+    background: black;
+    padding: 20px;
+    text-align: center;
+    
+}
+.call {
+    padding-top: 40px;
+    text-align: center;
+    clear: both;
+
+}
+.call p {
+    margin-bottom: 20px;
+}
+.portifolio {
+    background-color: black;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.portifolio .subtitulo {
+    color: #fec63e;
+}
+.portifolio .subtitulo:after {
+    background: #fec63e;
+} 
+.portifolio_lista li:last-child {
+    margin-top: 20px;
+
+}
+.portifolio .call p {
+    color: azure;
+}
+ /* qualidade */
+ .qualidade {
+     padding: 60px 0;
+ }
+ 
+ .qualidade img {
+     margin: 0 auto;
+ }
+ .qualidade_lista li {
+     text-align: center;
+     padding: 0 40px;
+ }
+ .qualidade_lista li h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 20px;
+    
+
+}
+.qualidade_lista li h3:after {
+    content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: rgb(0, 0, 0);
+  margin: 6px auto ;
+}
+/*quebra*/
+.quebra {
+    width: 100%;
+    height: 220px;
+    background: url("../primeira-footer.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 40px; 
+}
+.quebra .quote-exter {
+    max-width: 400px;
+}
+/*Footer*/
+
+.footer {
+    width: 100%;
+    background: black;
+    color: azure;
+    padding: 20px 0;
+}
+.footer h3 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #fec63e;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+.footer h3:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fec63e;
+    margin: 6px 0 12px 0;
+
+}
+.Footer_historia {
+    padding: 40px;
+}
+.footer_contato ul li{
+    font-size: 14px;
+    line-height:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer_redes ul li  {
+    display: inline-block;
+    margin-left: 5px;
+}
+.footer ul li a{
+    border: 3px solid #fec63e;
+    display: block;
+    padding: 6px;
+}
+.footer ul li a:hover {
+    border-color: azure;
+}
+ /*copy*/
+ .copy {
+    width: 100%; 
+    background: #fec63e ;
+    padding: 20px 0;
+ }
+
+
+
+
+ 
+
+
